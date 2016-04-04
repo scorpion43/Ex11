@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Wait"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout android:id="@+id/answers"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+
+
+    </LinearLayout>
+
+    <Button android:id="@+id/skip"
+        android:layout_marginTop="12sp"
+        android:layout_width="fill_parent"
+        android:textColor="#4f53ff"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:text="Skip Question"
+        />
+
+    <Button android:id="@+id/view"
+        android:layout_marginTop="12sp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Feed Me!"
+        />
+
+</LinearLayout>
